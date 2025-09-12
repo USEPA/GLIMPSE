@@ -32,19 +32,27 @@
 */
 package glimpseUtil;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.IOException;
 import java.math.BigDecimal;
+import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.attribute.PosixFilePermission;
 import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.swing.JFrame;
@@ -2359,5 +2367,105 @@ public class GLIMPSEUtils {
 	     boolean b = m.find();
 	     return b;
 	 }
+	
+	//YD added,Sep-2025
+	// this method is to create a shell script so that user can submit it to a new graphical window from
+	// scenarioBuilder GUI
+	public Path createLinuxShellScript(String scriptPath, 
+            Map<String, String> environmentVariables,
+            List<String> commands,
+            boolean makeExecutable) throws IOException {
+
+            Path path = Paths.get(scriptPath);
+
+           try (BufferedWriter writer = Files.newBufferedWriter(path)) {
+
+           writer.write("#!/bin/bash");
+           writer.newLine();
+           writer.newLine();
+
+           // Write header comment
+           writer.write("# Generated shell script with environment variables");
+           writer.newLine();
+           writer.write("# Created: " + new Date());
+           writer.newLine();
+           writer.newLine();
+
+           // Export environment variables
+          if (environmentVariables != null && !environmentVariables.isEmpty()) {
+              writer.write("# Export environment variables");
+              writer.newLine();
+
+              for (Map.Entry<String, String> entry : environmentVariables.entrySet()) {
+              String key = entry.getKey();
+              String value = entry.getValue();
+
+              // Escape special characters in values
+              //String escapedValue = escapeShellValue(value);
+              writer.write("export " + key + "=" + value);
+              writer.newLine();
+              } // for loop end
+              writer.newLine();
+          }// if loop end
+
+         // Write user commands
+         if (commands != null && !commands.isEmpty()) {
+         writer.write("# Execute commands");
+         writer.newLine();
+
+         for (String command : commands) {
+            writer.write(command);
+            writer.newLine();
+         }
+         writer.newLine();
+         }// if loop end
+
+       }   
+
+       // Make executable if requested
+        if (makeExecutable) {
+            makeExecutable(path);
+        }
+       return path;
+    }
+	
+	private void makeExecutable(Path path) throws IOException {
+        Set<PosixFilePermission> perms = new HashSet<>();
+        perms.add(PosixFilePermission.OWNER_READ);
+        perms.add(PosixFilePermission.OWNER_WRITE);
+        perms.add(PosixFilePermission.OWNER_EXECUTE);
+        perms.add(PosixFilePermission.GROUP_READ);
+        perms.add(PosixFilePermission.GROUP_EXECUTE);
+        perms.add(PosixFilePermission.OTHERS_READ);
+        perms.add(PosixFilePermission.OTHERS_EXECUTE);
+        
+        try {
+            Files.setPosixFilePermissions(path, perms);
+        } catch (UnsupportedOperationException e) {
+            // Fallback for non-POSIX systems
+            path.toFile().setExecutable(true);
+        }
+    }
+	
+	private String escapeShellValue(String value) {
+        if (value == null) {
+            return "\"\"";
+        }
+        
+        // If value contains spaces, quotes, or special characters, wrap in double quotes
+        // and escape internal double quotes and backslashes
+        if (value.matches(".*[\\s\"'\\\\$`|;&<>(){}\\[\\]\\*\\?].*")) {
+            return "\"" + value.replace("\\", "\\\\")
+                              .replace("\"", "\\\"")
+                              //.replace("$", "\\$")
+                              .replace("`", "\\`") + "\"";
+        }
+        
+        return value;
+    }
+
+	
+
+
 	
 }

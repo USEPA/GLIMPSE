@@ -1,0 +1,649 @@
+########## Scenario Component Metadata ##########
+#Scenario component type: Fuel Price Adj
+#Fuel: regional oil,domestic crude oil,domestic crude oil;regional coal,domestic coal,domestic coal;
+#Units: 1975$s per GJ
+#Policy name: FuelPriceAdj-mult-Reg1752266400388
+#Market name: FuelPriceAdj-mult-Reg_Mkt1752266400388
+#Regions: AK,AL,AR,AZ,CA,CO,CT,DC,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,USA
+#Table data:2025 , 52.0
+#Table data:2030 , 40.2
+#Table data:2035 , 31.1
+#Table data:2040 , 24.1
+#Table data:2045 , 18.6
+#Table data:2050 , 14.4
+#################################################
+INPUT_TABLE
+Variable ID
+GLIMPSEFuelPriceAdj
+
+region,supplysector,subsector,technology,param,year,adjustment
+AK,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+AK,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+AK,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+AK,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+AK,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+AK,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+AL,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+AL,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+AL,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+AL,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+AL,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+AL,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+AR,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+AR,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+AR,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+AR,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+AR,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+AR,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+AZ,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+AZ,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+AZ,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+AZ,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+AZ,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+AZ,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+CA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+CA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+CA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+CA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+CA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+CA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+CO,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+CO,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+CO,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+CO,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+CO,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+CO,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+CT,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+CT,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+CT,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+CT,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+CT,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+CT,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+DC,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+DC,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+DC,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+DC,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+DC,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+DC,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+DE,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+DE,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+DE,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+DE,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+DE,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+DE,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+FL,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+FL,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+FL,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+FL,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+FL,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+FL,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+GA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+GA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+GA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+GA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+GA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+GA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+HI,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+HI,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+HI,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+HI,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+HI,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+HI,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+IA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+IA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+IA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+IA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+IA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+IA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+ID,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+ID,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+ID,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+ID,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+ID,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+ID,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+IL,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+IL,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+IL,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+IL,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+IL,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+IL,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+IN,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+IN,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+IN,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+IN,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+IN,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+IN,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+KS,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+KS,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+KS,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+KS,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+KS,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+KS,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+KY,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+KY,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+KY,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+KY,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+KY,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+KY,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+LA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+LA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+LA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+LA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+LA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+LA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MD,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MD,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MD,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MD,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MD,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MD,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+ME,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+ME,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+ME,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+ME,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+ME,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+ME,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MI,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MI,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MI,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MI,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MI,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MI,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MN,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MN,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MN,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MN,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MN,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MN,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MO,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MO,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MO,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MO,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MO,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MO,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MS,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MS,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MS,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MS,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MS,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MS,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+MT,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+MT,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+MT,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+MT,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+MT,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+MT,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NC,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NC,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NC,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NC,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NC,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NC,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+ND,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+ND,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+ND,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+ND,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+ND,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+ND,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NE,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NE,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NE,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NE,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NE,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NE,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NH,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NH,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NH,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NH,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NH,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NH,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NJ,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NJ,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NJ,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NJ,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NJ,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NJ,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NM,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NM,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NM,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NM,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NM,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NM,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NV,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NV,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NV,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NV,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NV,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NV,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+NY,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+NY,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+NY,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+NY,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+NY,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+NY,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+OH,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+OH,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+OH,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+OH,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+OH,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+OH,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+OK,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+OK,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+OK,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+OK,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+OK,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+OK,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+OR,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+OR,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+OR,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+OR,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+OR,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+OR,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+PA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+PA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+PA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+PA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+PA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+PA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+RI,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+RI,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+RI,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+RI,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+RI,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+RI,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+SC,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+SC,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+SC,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+SC,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+SC,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+SC,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+SD,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+SD,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+SD,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+SD,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+SD,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+SD,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+TN,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+TN,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+TN,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+TN,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+TN,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+TN,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+TX,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+TX,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+TX,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+TX,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+TX,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+TX,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+UT,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+UT,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+UT,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+UT,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+UT,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+UT,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+VA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+VA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+VA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+VA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+VA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+VA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+VT,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+VT,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+VT,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+VT,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+VT,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+VT,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+WA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+WA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+WA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+WA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+WA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+WA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+WI,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+WI,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+WI,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+WI,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+WI,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+WI,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+WV,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+WV,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+WV,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+WV,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+WV,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+WV,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+WY,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+WY,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+WY,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+WY,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+WY,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+WY,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+USA,regional oil,domestic crude oil,domestic crude oil,2025,regional price adjustment,52.0
+USA,regional oil,domestic crude oil,domestic crude oil,2030,regional price adjustment,40.2
+USA,regional oil,domestic crude oil,domestic crude oil,2035,regional price adjustment,31.1
+USA,regional oil,domestic crude oil,domestic crude oil,2040,regional price adjustment,24.1
+USA,regional oil,domestic crude oil,domestic crude oil,2045,regional price adjustment,18.6
+USA,regional oil,domestic crude oil,domestic crude oil,2050,regional price adjustment,14.4
+
+INPUT_TABLE
+Variable ID
+GLIMPSEFuelPriceAdj
+
+region,supplysector,subsector,technology,param,year,adjustment
+AK,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+AK,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+AK,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+AK,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+AK,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+AK,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+AL,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+AL,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+AL,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+AL,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+AL,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+AL,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+AR,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+AR,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+AR,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+AR,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+AR,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+AR,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+AZ,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+AZ,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+AZ,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+AZ,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+AZ,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+AZ,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+CA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+CA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+CA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+CA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+CA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+CA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+CO,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+CO,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+CO,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+CO,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+CO,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+CO,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+CT,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+CT,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+CT,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+CT,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+CT,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+CT,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+DC,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+DC,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+DC,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+DC,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+DC,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+DC,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+DE,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+DE,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+DE,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+DE,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+DE,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+DE,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+FL,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+FL,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+FL,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+FL,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+FL,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+FL,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+GA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+GA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+GA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+GA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+GA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+GA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+HI,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+HI,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+HI,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+HI,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+HI,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+HI,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+IA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+IA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+IA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+IA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+IA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+IA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+ID,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+ID,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+ID,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+ID,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+ID,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+ID,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+IL,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+IL,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+IL,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+IL,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+IL,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+IL,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+IN,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+IN,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+IN,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+IN,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+IN,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+IN,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+KS,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+KS,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+KS,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+KS,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+KS,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+KS,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+KY,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+KY,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+KY,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+KY,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+KY,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+KY,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+LA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+LA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+LA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+LA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+LA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+LA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MD,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MD,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MD,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MD,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MD,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MD,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+ME,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+ME,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+ME,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+ME,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+ME,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+ME,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MI,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MI,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MI,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MI,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MI,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MI,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MN,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MN,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MN,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MN,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MN,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MN,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MO,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MO,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MO,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MO,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MO,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MO,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MS,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MS,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MS,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MS,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MS,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MS,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+MT,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+MT,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+MT,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+MT,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+MT,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+MT,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NC,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NC,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NC,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NC,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NC,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NC,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+ND,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+ND,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+ND,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+ND,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+ND,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+ND,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NE,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NE,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NE,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NE,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NE,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NE,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NH,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NH,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NH,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NH,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NH,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NH,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NJ,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NJ,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NJ,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NJ,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NJ,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NJ,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NM,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NM,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NM,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NM,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NM,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NM,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NV,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NV,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NV,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NV,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NV,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NV,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+NY,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+NY,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+NY,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+NY,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+NY,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+NY,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+OH,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+OH,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+OH,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+OH,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+OH,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+OH,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+OK,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+OK,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+OK,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+OK,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+OK,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+OK,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+OR,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+OR,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+OR,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+OR,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+OR,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+OR,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+PA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+PA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+PA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+PA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+PA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+PA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+RI,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+RI,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+RI,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+RI,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+RI,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+RI,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+SC,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+SC,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+SC,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+SC,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+SC,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+SC,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+SD,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+SD,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+SD,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+SD,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+SD,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+SD,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+TN,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+TN,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+TN,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+TN,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+TN,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+TN,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+TX,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+TX,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+TX,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+TX,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+TX,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+TX,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+UT,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+UT,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+UT,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+UT,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+UT,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+UT,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+VA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+VA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+VA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+VA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+VA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+VA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+VT,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+VT,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+VT,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+VT,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+VT,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+VT,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+WA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+WA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+WA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+WA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+WA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+WA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+WI,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+WI,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+WI,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+WI,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+WI,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+WI,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+WV,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+WV,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+WV,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+WV,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+WV,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+WV,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+WY,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+WY,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+WY,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+WY,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+WY,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+WY,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4
+USA,regional coal,domestic coal,domestic coal,2025,regional price adjustment,52.0
+USA,regional coal,domestic coal,domestic coal,2030,regional price adjustment,40.2
+USA,regional coal,domestic coal,domestic coal,2035,regional price adjustment,31.1
+USA,regional coal,domestic coal,domestic coal,2040,regional price adjustment,24.1
+USA,regional coal,domestic coal,domestic coal,2045,regional price adjustment,18.6
+USA,regional coal,domestic coal,domestic coal,2050,regional price adjustment,14.4

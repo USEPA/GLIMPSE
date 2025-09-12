@@ -1,0 +1,3853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="AK" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="AL" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="AR" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="AZ" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="CA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="CO" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="CT" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="DC" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="DE" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="FL" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="GA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="HI" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="IA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="ID" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="IL" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="IN" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="KS" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="KY" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="LA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MD" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="ME" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MI" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MN" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MO" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MS" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="MT" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NC" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="ND" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NE" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NH" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NJ" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NM" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NV" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="NY" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="OH" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="OK" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="OR" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="PA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="RI" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="SC" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="SD" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="TN" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="TX" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="UT" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="VA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="VT" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="WA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="WI" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="WV" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="WY" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="USA" nocreate="1">
+         <supplysector name="regional oil" nocreate="1">
+            <subsector name="domestic crude oil" nocreate="1">
+               <technology name="domestic crude oil" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+         <supplysector name="regional coal" nocreate="1">
+            <subsector name="domestic coal" nocreate="1">
+               <technology name="domestic coal" nocreate="1">
+                  <period year="2025">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>52.0</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2030">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>40.2</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2035">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>31.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2040">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>24.1</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2045">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>18.6</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+                  <period year="2050">
+                     <minicam-non-energy-input name="regional price adjustment">
+                        <input-cost>14.4</input-cost>
+                     </minicam-non-energy-input>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+   </world>
+</scenario>

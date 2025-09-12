@@ -72,11 +72,27 @@ public class SetupMenuFile {
 		menuFile.getItems().addAll(menuItemShowOptions);
 	}
 	
+	//YD edited, Sep-2025
 	private void createEditOptionsMainMenuItem() {
+		boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
 		MenuItem menuItemEditOptions = new MenuItem("Edit Options");
+		String editorStr = vars.get("textEditor");
+		System.out.println("inside createEditOptionsMainMenuItem now,check optionsFilename:"+vars.getOptionsFilename());
+		
+		if (isWindows) {
 		menuItemEditOptions.setOnAction(e -> {
 			files.showFileInTextEditor(vars.getOptionsFilename());
 		});
+		}else if (editorStr.equalsIgnoreCase("nedit")) {
+		System.out.println("inside createEditOptionsMainMenuItem now, check if the textEditor is nedit:"+editorStr.equalsIgnoreCase("nedit"));	
+		menuItemEditOptions.setOnAction(e -> {
+			files.showFileInTextEditor(vars.getOptionsFilename());
+		});	
+		}else {
+		menuItemEditOptions.setOnAction(e -> {
+				files.openLinuxTextEditor(vars.getOptionsFilename());
+		});		
+		}
 		menuFile.getItems().addAll(menuItemEditOptions);
 	}
 

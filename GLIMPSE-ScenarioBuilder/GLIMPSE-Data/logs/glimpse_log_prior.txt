@@ -1,0 +1,4 @@
+Information at startup 11/07/2025 15:40:08:
+
+
+--- Resource warnings during current session follow: ---

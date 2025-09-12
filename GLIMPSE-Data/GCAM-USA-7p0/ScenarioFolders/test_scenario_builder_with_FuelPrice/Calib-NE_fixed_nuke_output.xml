@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="CT">
+         <supplysector name="base load generation" nocreate="1">
+            <nesting-subsector name="nuclear" nocreate="1">
+               <subsector name="nuc_base_Gen II" nocreate="1">
+                  <stub-technology name="Gen_II_LWR (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (once through)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+               <subsector name="nuc_base_Gen III" nocreate="1">
+                  <stub-technology name="Gen_III (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+            </nesting-subsector>
+         </supplysector>
+         <policy-portfolio-standard name="Up_Base_load_generation_Tech_Reg1">
+            <market>Up_Base_load_generation_Tech_Reg_Mkt1</market>
+            <policyType>tax</policyType>
+            <constraint year="2015">0.119570</constraint>
+            <constraint year="2020">0.118</constraint>
+            <constraint year="2025">0.118</constraint>
+            <constraint year="2030">0.059</constraint>
+            <constraint year="2035">0.059</constraint>
+            <constraint year="2040">0.059</constraint>
+            <constraint year="2045">0.059</constraint>
+            <constraint year="2050">0.059</constraint>
+         </policy-portfolio-standard>
+      </region>
+      <region name="MA">
+         <supplysector name="base load generation" nocreate="1">
+            <nesting-subsector name="nuclear" nocreate="1">
+               <subsector name="nuc_base_Gen II" nocreate="1">
+                  <stub-technology name="Gen_II_LWR (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (once through)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+               <subsector name="nuc_base_Gen III" nocreate="1">
+                  <stub-technology name="Gen_III (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+            </nesting-subsector>
+         </supplysector>
+         <policy-portfolio-standard name="Up_Base_load_generation_Tech_Reg1">
+            <market>Up_Base_load_generation_Tech_Reg_Mkt1</market>
+            <policyType>tax</policyType>
+            <constraint year="2015">0.119570</constraint>
+            <constraint year="2020">0.118</constraint>
+            <constraint year="2025">0.118</constraint>
+            <constraint year="2030">0.059</constraint>
+            <constraint year="2035">0.059</constraint>
+            <constraint year="2040">0.059</constraint>
+            <constraint year="2045">0.059</constraint>
+            <constraint year="2050">0.059</constraint>
+         </policy-portfolio-standard>
+      </region>
+      <region name="ME">
+         <supplysector name="base load generation" nocreate="1">
+            <nesting-subsector name="nuclear" nocreate="1">
+               <subsector name="nuc_base_Gen II" nocreate="1">
+                  <stub-technology name="Gen_II_LWR (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (once through)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+               <subsector name="nuc_base_Gen III" nocreate="1">
+                  <stub-technology name="Gen_III (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+            </nesting-subsector>
+         </supplysector>
+         <policy-portfolio-standard name="Up_Base_load_generation_Tech_Reg1">
+            <market>Up_Base_load_generation_Tech_Reg_Mkt1</market>
+            <policyType>tax</policyType>
+            <constraint year="2015">0.119570</constraint>
+            <constraint year="2020">0.118</constraint>
+            <constraint year="2025">0.118</constraint>
+            <constraint year="2030">0.059</constraint>
+            <constraint year="2035">0.059</constraint>
+            <constraint year="2040">0.059</constraint>
+            <constraint year="2045">0.059</constraint>
+            <constraint year="2050">0.059</constraint>
+         </policy-portfolio-standard>
+      </region>
+      <region name="NH">
+         <supplysector name="base load generation" nocreate="1">
+            <nesting-subsector name="nuclear" nocreate="1">
+               <subsector name="nuc_base_Gen II" nocreate="1">
+                  <stub-technology name="Gen_II_LWR (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (once through)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+               <subsector name="nuc_base_Gen III" nocreate="1">
+                  <stub-technology name="Gen_III (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+            </nesting-subsector>
+         </supplysector>
+         <policy-portfolio-standard name="Up_Base_load_generation_Tech_Reg1">
+            <market>Up_Base_load_generation_Tech_Reg_Mkt1</market>
+            <policyType>tax</policyType>
+            <constraint year="2015">0.119570</constraint>
+            <constraint year="2020">0.118</constraint>
+            <constraint year="2025">0.118</constraint>
+            <constraint year="2030">0.059</constraint>
+            <constraint year="2035">0.059</constraint>
+            <constraint year="2040">0.059</constraint>
+            <constraint year="2045">0.059</constraint>
+            <constraint year="2050">0.059</constraint>
+         </policy-portfolio-standard>
+      </region>
+      <region name="RI">
+         <supplysector name="base load generation" nocreate="1">
+            <nesting-subsector name="nuclear" nocreate="1">
+               <subsector name="nuc_base_Gen II" nocreate="1">
+                  <stub-technology name="Gen_II_LWR (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (once through)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+               <subsector name="nuc_base_Gen III" nocreate="1">
+                  <stub-technology name="Gen_III (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+            </nesting-subsector>
+         </supplysector>
+         <policy-portfolio-standard name="Up_Base_load_generation_Tech_Reg1">
+            <market>Up_Base_load_generation_Tech_Reg_Mkt1</market>
+            <policyType>tax</policyType>
+            <constraint year="2015">0.119570</constraint>
+            <constraint year="2020">0.118</constraint>
+            <constraint year="2025">0.118</constraint>
+            <constraint year="2030">0.059</constraint>
+            <constraint year="2035">0.059</constraint>
+            <constraint year="2040">0.059</constraint>
+            <constraint year="2045">0.059</constraint>
+            <constraint year="2050">0.059</constraint>
+         </policy-portfolio-standard>
+      </region>
+      <region name="VT">
+         <supplysector name="base load generation" nocreate="1">
+            <nesting-subsector name="nuclear" nocreate="1">
+               <subsector name="nuc_base_Gen II" nocreate="1">
+                  <stub-technology name="Gen_II_LWR (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (once through)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_II_LWR (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+               <subsector name="nuc_base_Gen III" nocreate="1">
+                  <stub-technology name="Gen_III (cooling pond)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (recirculating)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+                  <stub-technology name="Gen_III (seawater)" nocreate="1">
+                     <period year="2015">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2020">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2025">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2030">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2035">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2040">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2045">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                     <period year="2050">
+                        <input-tax name="Up_Base_load_generation_Tech_Reg1"/>
+                     </period>
+                  </stub-technology>
+               </subsector>
+            </nesting-subsector>
+         </supplysector>
+         <policy-portfolio-standard name="Up_Base_load_generation_Tech_Reg1">
+            <market>Up_Base_load_generation_Tech_Reg_Mkt1</market>
+            <policyType>tax</policyType>
+            <constraint year="2015">0.119570</constraint>
+            <constraint year="2020">0.118</constraint>
+            <constraint year="2025">0.118</constraint>
+            <constraint year="2030">0.059</constraint>
+            <constraint year="2035">0.059</constraint>
+            <constraint year="2040">0.059</constraint>
+            <constraint year="2045">0.059</constraint>
+            <constraint year="2050">0.059</constraint>
+         </policy-portfolio-standard>
+      </region>
+   </world>
+</scenario>

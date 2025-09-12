@@ -52,6 +52,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
@@ -275,7 +276,10 @@ public class GLIMPSEFiles {
 
 		try {
 			java.lang.Runtime rt = java.lang.Runtime.getRuntime();
+			System.out.println("check textEditor cmd: " + cmd);
 			rt.exec(cmd); 
+			//YD Sep-2025,need to figure out how to call the editor on Atmos
+			// "Edit Options" will bring up the text editor you specify in the options*.txt
 
 		} catch (Exception e) {
 			utils.warningMessage("Could not use text editor specified in options file. Using system default.");
@@ -993,5 +997,63 @@ public class GLIMPSEFiles {
 
 		return b;
 	}
+	
+	//YD added, Sep-2025
+	 public void openLinuxTextEditor(String filePathName) {
+	        // List of editors include "nedit","nano","vim", in order of preference
+		     System.out.println("inside openLinuxTextEditor now:"+vars.get("textEditor"));
+		    GLIMPSEVariables vars = GLIMPSEVariables.getInstance();
+			
+			File f=new File(filePathName);
+			if (!f.exists()) {
+				String msg="File does not exist:"+filePathName;
+				utils.warningMessage(msg);
+				return;
+			}
+			
+			String editorStr = vars.get("textEditor");
+	        // Check if DISPLAY environment variable is set (required for X11)
+	        String display = System.getenv("DISPLAY");
+	        if (display == null || display.trim().isEmpty()) {
+	            utils.warningMessage("DISPLAY environment variable is not set. X11 forwarding may not be enabled.");
+	            return;
+	        }
+	        
+	        if (editorStr.equalsIgnoreCase("nedit")) {
+	        	try {
+	        	java.lang.Runtime rt = java.lang.Runtime.getRuntime();
+	        	String cmd = editorStr + " " + filePathName;
+				System.out.println("check linux textEditor cmd: " + cmd);
+				rt.exec(cmd); 
+	        	}catch(Exception e) {
+	    			utils.warningMessage("Could not use text editor specified in options file.");
+	        	}
+	        }else {
+	        ProcessBuilder pb;
+	        Process process = null;
+	        IOException lastException = null;
+	        
+	            try {
+	                // Check if the editor exists
+	                pb = new ProcessBuilder(editorStr);
+	                Process checkProcess = pb.start();
+	                checkProcess.waitFor();
+	                
+	                if (checkProcess.exitValue() == 0) {
+	                    // Editor exists, try to launch it
+	                	pb = new ProcessBuilder(editorStr, filePathName);
+	                    // Set environment to ensure X11 forwarding works
+	                    pb.environment().put("DISPLAY", display);
+	                    process = pb.start();
+	                }              
+	            } catch (IOException | InterruptedException e) {
+	                lastException = new IOException("Failed to launch " + editorStr + ": " + e.getMessage(), e);
+	                if (process != null) {
+	                    process.destroyForcibly();
+	                }
+	            }
+	        }//if else loop end
+	    }
+	    
 
 }

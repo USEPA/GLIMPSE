@@ -9,5 +9,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/GLIMPSE-ModelInterface"/>
+	<classpathentry kind="lib" path="/glimpse/GCAM-Model/gcam-v7.0/exe/XMLDBDriver.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

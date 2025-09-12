@@ -16,7 +16,7 @@ gCamGUIDir = $glimpseDir$/GLIMPSE-ScenarioBuilder
 gCamHomeDir = $glimpseDir$/GCAM-Model/gcam-v7.0
 
 #-----This is where you specify which database will be used for new GCAM results
-gCamOutputDatabase = $gCamHomeDir$/output/database
+gCamOutputDatabase = $gCamHomeDir$/output/databaseTest
 
 #-----Specify the pathname for this options file. Used to access/edit the file from GLIMPSE
 optionsFilename = $glimpseDir$/options_GCAM-USA-7.0.txt

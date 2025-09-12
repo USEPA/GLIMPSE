@@ -42,9 +42,14 @@ import java.nio.file.StandardCopyOption;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
@@ -947,15 +952,21 @@ class PaneScenarioLibrary extends ScenarioBuilder {
 				boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
 
 				String cmd = "cmd.exe /C start";
+				String cmd_str;
 				if (isWindows) {
 					cmd = "cmd.exe /C start";
+					//YD edited, Sep-2025,moved this line from outside of the if else loop
+					cmd_str = cmd + " " + vars.get("gCamExecutable") + " " + vars.get("gCamExecutableArgs") + " "
+							+ scenarioConfigFiles[i];
 				} else {
-					cmd = "/bin/sh -c";
+					//YD edited, Sep-2025,commented out the previous '/bin/sh -c' command
+					//cmd = "/bin/sh -c";
+					cmd = "./";
+					cmd_str = cmd + vars.get("gCamExecutable") +" " + vars.get("gCamExecutableArgs") + " " + scenarioConfigFiles[i];
 				}
 
 				
-				String cmd_str = cmd + " " + vars.get("gCamExecutable") + " " + vars.get("gCamExecutableArgs") + " "
-						+ scenarioConfigFiles[i];
+				
 				Future f = Client.gCAMExecutionThread.executeRunnableCmd(cmd_str, vars.get("gCamExecutableDir"));
 
 				// replace by adding callables to the queue
@@ -1107,18 +1118,22 @@ class PaneScenarioLibrary extends ScenarioBuilder {
 	private void runORDModelInterface() throws IOException {
 	// submitting gcam run to the queue
 	boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
-
-	String shell = "cmd.exe /C";
+    String shell = "cmd.exe /C";
+    String command;
 	if (isWindows) {
 		shell = "cmd.exe /C";
+		command = shell + " cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
+				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
+				+ vars.get("gCamOutputDatabase");
 	} else {
-		shell = "/bin/sh -c";
+		//YD edited, Sep-2025,commented out the previous '/bin/sh -c' command
+		//shell = "/bin/sh -c";
+		command = "cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
+				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
+				+ vars.get("gCamOutputDatabase");
 	}
 
 	String[] cmd = new String[1];
-	String command = shell + " cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
-			+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
-			+ vars.get("gCamOutputDatabase");
 
 	String temp = vars.get("queryFile");
 	if ((temp != null)&&(temp!="")) command += " -q " + temp;
@@ -1126,7 +1141,7 @@ class PaneScenarioLibrary extends ScenarioBuilder {
 	temp = vars.get("unitConversionsFile");
 	if ((temp != null)&&(temp!="")) command += " -u " + temp;
 
-	temp = vars.get("presetRegionsFile");
+	temp = vars.get("presetRegionsFileName");
 	if ((temp != null)&&(temp!="")) command += " -p " + temp;
 	
 	cmd[0] = command;
@@ -1223,30 +1238,70 @@ class PaneScenarioLibrary extends ScenarioBuilder {
 
 private void runORDModelInterfaceWhich(String database_name) throws IOException {
 	boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
-
+	System.out.println("inside runORDModelInterfaceWhich method now..."); //YD edited
 	String shell = "cmd.exe /C";
+	String command;
+	String[] cmd = new String[1];
 	if (isWindows) {
 		shell = "cmd.exe /C";
+		command = shell + " cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
+				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
+				+ database_name;
+		String temp = vars.get("queryFile");
+		if (temp != null)
+			command += " -q " + vars.get("queryFile");
+		
+		temp = vars.get("unitConversionsFile");
+		if ((temp != null)&&(temp!="")) command += " -u " + temp;
+
+		temp = vars.get("presetRegionsFileName");
+		if ((temp != null)&&(temp!="")) command += " -p " + temp;
+		cmd[0] = command;  
+		System.out.println("Starting EnhancedModelInterface...");
+		System.out.println("   cmd:" + cmd[0]);
 	} else {
-		shell = "/bin/sh -c";
+		//YD edited, Sep-2025,commented out the previous '/bin/sh -c' command
+		//shell = "/bin/sh -c";
+		// we need to submit a job to open another graphical window from Linux system
+		// first gather the information for environmental variables
+		Map<String, String> envVars = new LinkedHashMap<>();
+        envVars.put("JAVAHOME", "./amazon-corretto-8.452.09.1-linux-x64");
+        envVars.put("JAVAMAXMEM", "\"-Xmx6144M\"");
+        envVars.put("PATH", "\"$JAVAHOME/bin:$PATH\"");
+        envVars.put("JAVA_JVM_PATH", "$JAVAHOME/jre/bin/server");
+        
+        // next gather the commands
+        String runJarCommand = "java -jar "
+				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
+				+ database_name;
+        String temp = vars.get("queryFile");
+        if (temp != null)
+        	runJarCommand += " -q " + vars.get("queryFile");
+        temp = vars.get("unitConversionsFile");
+        if (temp != null&&(temp!=""))
+        	runJarCommand += " -u " + temp;	
+        temp = vars.get("presetRegionsFileName");
+        if (temp != null&&(temp!=""))
+        	runJarCommand += " -p " + temp;
+        String firstcommand = "echo \"Environment variables set:\"";
+        String secondcommand = "echo \"Starting application...\"";
+        //String thirdcommand = "cd vars.get(\"gCamPPExecutableDir\")";
+        List<String> commands = Arrays.asList(
+                firstcommand,
+                secondcommand,
+                //thirdcommand,
+                runJarCommand
+            );
+        Path ORDModelInterfaceShellScript = utils.createLinuxShellScript("submit_ORDModelInterface.sh",envVars,commands,true);
+        System.out.println("Created this shell script: " + ORDModelInterfaceShellScript.toAbsolutePath());
+        String linuxCommand = "./submit_ORDModelInterface.sh";
+        cmd[0] = linuxCommand;
 	}
 
-	String[] cmd = new String[1];
-	String command = shell + " cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
-			+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
-			+ database_name;
-
-	String temp = vars.get("queryFile");
-	if (temp != null)
-		command += " -q " + vars.get("queryFile");
-
-	// + " -l modelinterface.log";
-	// " -dbOpen "
-	cmd[0] = command;
 	System.out.println("Starting EnhancedModelInterface...");
 	System.out.println("   cmd:" + cmd[0]);
 	try {
-		Client.gCAMPPExecutionThread.addRunnableCmdsToExecuteQueue(cmd);
+       Client.gCAMPPExecutionThread.addRunnableCmdsToExecuteQueue(cmd);
 	} catch (Exception e) {
 		utils.warningMessage("Problem starting up post-processor.");
 		System.out.println("Error in trying to start up post-processor:");

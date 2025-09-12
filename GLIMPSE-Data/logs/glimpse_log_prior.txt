@@ -1,0 +1,4 @@
+Information at startup 05/09/2025 16:15:30:
+Resources... CPU: 0% | RAM: 31GB Free:49% | HD: 561GB Free:59% | Swap: 36GB Free:42% | DB: databaseTest 2.4GB Free:94%
+
+--- Resource warnings during current session follow: ---
