@@ -26,12 +26,13 @@
 * Agreements 89-92423101 and 89-92549601. Contributors * from PNNL include 
 * Maridee Weber, Catherine Ledna, Gokul Iyer, Page Kyle, Marshall Wise, Matthew 
 * Binsted, and Pralit Patel. Coding contributions have also been made by Aaron 
-* Parks and Yadong Xu of ARA through the EPA’s Environmental Modeling and 
+* Parks and Yadong Xu of ARA through the EPAï¿½s Environmental Modeling and 
 * Visualization Laboratory contract. 
 * 
 */
 package graphDisplay;
 
+import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -290,5 +291,15 @@ public class GraphDisplayUtil {
 		JList<Object> list = new JList<Object>(selOption);
 		return list;
 	}
+	
+	//YD added, Nov-2025, used in StateMapPanel.java and WorldMapPanel.java
+	public static String getFileExtension(File file) {
+	       String name = file.getName();
+	       int lastDot = name.lastIndexOf('.');
+	       if (lastDot > 0 && lastDot < name.length() - 1) {
+	           return name.substring(lastDot + 1).toLowerCase();
+	       }
+	       return "";
+	    }
 
 }

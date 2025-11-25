@@ -243,7 +243,8 @@ class PaneScenarioLibrary extends ScenarioBuilder {
 
 		// deletes run record from the table
 		Client.buttonDeleteScenario.setOnAction(e -> {
-
+            //Oct-2025, YD edits 
+			System.out.println("inside delete button action event now... ");
 			// gets confirmation from the user
 			if (!utils.confirmDelete())
 				return;
@@ -1120,33 +1121,66 @@ class PaneScenarioLibrary extends ScenarioBuilder {
 	boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
     String shell = "cmd.exe /C";
     String command;
+    String[] cmd = new String[1];
 	if (isWindows) {
 		shell = "cmd.exe /C";
 		command = shell + " cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
 				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
 				+ vars.get("gCamOutputDatabase");
+		String temp = vars.get("queryFile");
+		if ((temp != null)&&(temp!="")) command += " -q " + temp;
+
+		temp = vars.get("unitConversionsFile");
+		if ((temp != null)&&(temp!="")) command += " -u " + temp;
+
+		temp = vars.get("presetRegionsFileName");
+		if ((temp != null)&&(temp!="")) command += " -p " + temp;
+		
+		cmd[0] = command;
+		System.out.println("Starting "+vars.get("gCamPPExecutable")+" using database "+vars.get("gCamOutputDatabase"));
+		System.out.println("   cmd:" + cmd[0]);
 	} else {
-		//YD edited, Sep-2025,commented out the previous '/bin/sh -c' command
+		//YD edited, Oct-2025,commented out the previous '/bin/sh -c' command
 		//shell = "/bin/sh -c";
+		// we need to submit a job to open another graphical window from Linux system
+		// first gather the information for environmental variables
+		Map<String, String> envVars = new LinkedHashMap<>();
+		envVars.put("JAVAHOME", "./amazon-corretto-8.452.09.1-linux-x64");
+		envVars.put("JAVAMAXMEM", "\"-Xmx6144M\"");
+		envVars.put("PATH", "\"$JAVAHOME/bin:$PATH\"");
+		envVars.put("JAVA_JVM_PATH", "$JAVAHOME/jre/bin/server");
 		command = "cd " + vars.get("gCamPPExecutableDir") + " & java -jar "
 				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
 				+ vars.get("gCamOutputDatabase");
+		 // next gather the commands
+        String runJarCommand = "java -jar "
+				+ vars.get("gCamPPExecutableDir") + File.separator + vars.get("gCamPPExecutable") + " -o "
+				+ vars.get("gCamOutputDatabase");
+        String temp = vars.get("queryFile");
+        if (temp != null)
+        	runJarCommand += " -q " + vars.get("queryFile");
+        temp = vars.get("unitConversionsFile");
+        if (temp != null&&(temp!=""))
+        	runJarCommand += " -u " + temp;	
+        temp = vars.get("presetRegionsFileName");
+        if (temp != null&&(temp!=""))
+        	runJarCommand += " -p " + temp;
+        String firstcommand = "echo \"Environment variables set:\"";
+        String secondcommand = "echo \"Starting application...\"";
+        //String thirdcommand = "cd vars.get(\"gCamPPExecutableDir\")";
+        List<String> commands = Arrays.asList(
+                firstcommand,
+                secondcommand,
+                //thirdcommand,
+                runJarCommand
+            );
+        Path ORDModelInterfaceShellScript = utils.createLinuxShellScript("submit_ORDModelInterfaceAll.sh",envVars,commands,true);
+        System.out.println("Created this shell script: " + ORDModelInterfaceShellScript.toAbsolutePath());
+        String linuxCommand = "./submit_ORDModelInterfaceAll.sh";
+        cmd[0] = linuxCommand;
 	}
 
-	String[] cmd = new String[1];
-
-	String temp = vars.get("queryFile");
-	if ((temp != null)&&(temp!="")) command += " -q " + temp;
-
-	temp = vars.get("unitConversionsFile");
-	if ((temp != null)&&(temp!="")) command += " -u " + temp;
-
-	temp = vars.get("presetRegionsFileName");
-	if ((temp != null)&&(temp!="")) command += " -p " + temp;
 	
-	cmd[0] = command;
-	System.out.println("Starting "+vars.get("gCamPPExecutable")+" using database "+vars.get("gCamOutputDatabase"));
-	System.out.println("   cmd:" + cmd[0]);
 	try {
 		Client.gCAMPPExecutionThread.addRunnableCmdsToExecuteQueue(cmd);
 	} catch (Exception e) {

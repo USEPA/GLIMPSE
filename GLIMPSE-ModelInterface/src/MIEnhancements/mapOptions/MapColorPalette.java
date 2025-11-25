@@ -70,7 +70,7 @@ public class MapColorPalette implements Serializable {
 	}
 
 	public Color getColor(int index) {
-		return colors[(!reverseColors ? index : getColorCount() - 1 - index)];
+		return colors[(!reverseColors ? index : getColorCount() -1 -index)];
 	}
 
 	public static MapColorPalette getDefaultPalette() {
@@ -131,6 +131,13 @@ public class MapColorPalette implements Serializable {
 		    JOptionPane.showMessageDialog(null, "this color palette only allows maximum of " + maxAllowed + " colors.");
 		    return new MapColorPalette(palette.getColors(maxAllowed), palette.getDescription(), reverseColors);
 		    }else {
+		    	//YD edited, Nov-2025, to check the actual colors
+		    	//Color[] newColors = palette.getColors(nClass);
+		    	//System.out.println("check nchoice:"+nChoice);
+		    	//System.out.println("check nclass:"+nClass);
+				//for (int i=0;i<newColors.length;i++) {
+			   // 	System.out.println("check each color in color palette:"+newColors[i]);
+			   // }	
 			return new MapColorPalette(palette.getColors(nClass), palette.getDescription(), reverseColors);
 		    }
 		}else {

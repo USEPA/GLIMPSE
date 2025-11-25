@@ -7,8 +7,11 @@ import java.awt.Container;
 import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -51,6 +54,7 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.JToolBar;
 import javax.swing.SwingConstants;
+import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -94,6 +98,7 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 	private JPanel refreshMapPanel;
 	private JPanel reverseColorPanel;
 	private JPanel colorConfigPanel;
+	private JPanel mainRightPanel;
 	private JPanel exportMapPanel;
 	private ButtonGroup choiceGroup;
 	private int numColorChoice;
@@ -112,6 +117,7 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 	private	JLabel listLabel;
 	private JLabel legendLabel;
 	private JTextField sectorText;
+	private JTextField footerText;
 	private JFormattedTextField minField;
 	private JFormattedTextField maxField;
 	private double previousMin;
@@ -160,51 +166,66 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 		this.jtable=jtable;
 		initialize();					
 	}
-	
+	 
+
+	//YD edited, Nov-2025
 	protected void initialize() {
 		//initiate a JFrame
 		frame = new JFrame("Map for "+chartName);
-	    frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-	    frame.setLayout(new BorderLayout());
-		frame.getContentPane().add(createToolBar(),BorderLayout.WEST);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+		Dimension preferredD = new Dimension(1200,800);
+		frame.setSize(preferredD);
+	    frame.setLayout(new GridBagLayout());
+	    frame.setLocationRelativeTo(null);
+		frame.setVisible(true);
+		GridBagConstraints gbc = new GridBagConstraints();
+	    //first component, a toolBar panel on the left, take 30% width
+		gbc.gridx=0;
+		gbc.gridy=0;
+		//gbc.gridwidth = 1;
+		//gbc.gridheight =1 ;
+		gbc.weightx= 0.15;
+		gbc.weighty= 1;
+		gbc.fill = GridBagConstraints.BOTH;
+		frame.getContentPane().add(createToolBar(),gbc);
 		//get min and max from the jtable, these values will be used to generate mapColor and color legend
 		normalizeScale = true;
 		boolean noRowSelected = jtable.getSelectionModel().isSelectionEmpty();
 		if (noRowSelected) {
 			minMaxFromTable = MapOptionsUtil.getAbsMinMaxFromTableColumn(jtable,(String)yearListMenu.getSelectedItem(),normalizeScale);
 		}else {
-
 			minMaxFromTable = getAbsMinMaxForAllYears(normalizeScale);
 			}
 		reverseColors = false;
-		//usePalette = MapColorPalette.getusePalette();
 		usePalette = MapColorPalette.getMapColorPalette("DIVERGING",4,10,reverseColors);
-
-		useMapColor = new MapColor(usePalette,minMaxFromTable[0],minMaxFromTable[1]);	
-		frame.getContentPane().add(createMapContent(),BorderLayout.CENTER);
-		frame.getContentPane().add(createFooter(),BorderLayout.PAGE_END);
-		frame.getContentPane().add(addLegendPanel(),BorderLayout.EAST);
-		frame.pack();
+		useMapColor = new MapColor(usePalette,minMaxFromTable[0],minMaxFromTable[1]);
+		
+		//second component, a main panel on the right, take 70% width
+		//contains multiple components
+		gbc.gridx=1;
+		gbc.gridy=0;
+		//gbc.gridwidth = 1;
+		//gbc.gridheight =1 ;
+		gbc.weightx= 0.85;
+		gbc.weighty= 1;
+		gbc.fill = GridBagConstraints.BOTH;
+		frame.getContentPane().add(addMainRightPanel(),gbc);
+		//frame.getContentPane().add(createMapContent(),BorderLayout.CENTER);
+		//frame.getContentPane().add(createFooter(),BorderLayout.PAGE_END);
+		//frame.getContentPane().add(addLegendPanel(),BorderLayout.EAST);
+		
 		//YD edits,August-2024,to set the size for map window
-		Dimension preferredD = new Dimension(1200,800);
-		frame.setSize(preferredD);
 		frame.setMinimumSize(new Dimension(500,300));
 		frame.setResizable(true);
-		frame.setLocationRelativeTo(null);
-		frame.setVisible(true);
-		frame.setAlwaysOnTop(true);
+		frame.pack();
+		frame.setAlwaysOnTop(false);
 		//frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		frame.addComponentListener(new ComponentAdapter() {
 			@Override
 			public void componentResized(ComponentEvent e) {
-				// YD edits, Nov-2024
-				if (frame.isDisplayable()) {
-					//System.out.println("inside componentResized listener now... ");
-					RedrawStateMapLayout();
-				}
-				//frame.revalidate();
-				//frame.repaint();
-				
+			// do something				
+				RedrawStateMap();				
 			}
 		});
 		DbViewer.openWindows.add(frame);
@@ -212,6 +233,8 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 		//YD Nov-2024
 		//jtable.getSelectionModel().addListSelectionListener(new RowSelectionListener());
 	}
+	
+	
 	
 	protected JComponent createToolBar() {
 		//create a toolBar on the left
@@ -407,33 +430,77 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 		exportMapPanel.setLayout(new BoxLayout(exportMapPanel,BoxLayout.X_AXIS));
 		exportMapPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		JButton saveBtn = new JButton("Export Map");
-		saveBtn.setFont(new Font("Arial",Font.BOLD,16));
+		saveBtn.setFont(new Font("Arial",Font.PLAIN,16));
 		saveBtn.addActionListener(new ActionListener(){
+			@Override
 				public void actionPerformed(ActionEvent e) {
-						saveMap();
+					downloadMapWithFileChooser();
 				}
 		});
 
-		
 		exportMapPanel.add(saveBtn);
-		//toolBar.add(exportMapPanel);
+		toolBar.add(exportMapPanel);
 		return toolBar;
+	}
+	
+	//YD edited, Nov-2025
+	
+	protected JComponent addMainRightPanel() {
+		
+		mainRightPanel = new JPanel(new GridBagLayout());
+		mainRightPanel.setBorder(new EmptyBorder(5,5,5,5));
+		GridBagConstraints gbc = new GridBagConstraints();
+		
+		//mainRightPanel.setLayout(new BoxLayout(mainRightPanel,BoxLayout.X_AXIS));
+		//mainRightPanel.setAlignmentX(Component.RIGHT_ALIGNMENT);
+		// first component is the map
+		gbc.gridx=0;
+		gbc.gridy=0;
+		//gbc.gridwidth = 1;
+		//gbc.gridheight =1 ;
+		gbc.weightx= 0.9;
+		gbc.weighty= 0.95;
+		gbc.fill = GridBagConstraints.BOTH;
+		mainRightPanel.add(createMapContent(),gbc);
+		// second component is the color legend on the right
+		gbc.gridx=1;
+		gbc.gridy=0;
+		//gbc.gridwidth = 1;
+		//gbc.gridheight =1 ;
+		gbc.weightx= 0.1;
+		gbc.weighty= 0.95;
+		gbc.fill = GridBagConstraints.BOTH;
+		mainRightPanel.add(addLegendPanel(),gbc);
+		// third component is the footer under the map
+		gbc.gridx=0;
+		gbc.gridy=1;
+		//gbc.gridwidth = 1;
+		//gbc.gridheight =1 ;
+		gbc.weightx= 1;
+		gbc.weighty= 0.05;
+		gbc.fill = GridBagConstraints.BOTH;
+		mainRightPanel.add(createFooter(),gbc);
+		
+		return mainRightPanel;
 	}
 	
 	protected JComponent createMapContent() {
 		addMapPanel = new JPanel();
-		addMapPanel.setLayout(new BoxLayout(addMapPanel,BoxLayout.X_AXIS));
-		addMapPanel.setBorder(new EmptyBorder(10,10,10,10));
+		addMapPanel.setLayout(new BorderLayout());
+		addMapPanel.setBorder(new EmptyBorder(5,5,5,5));
 		addMapPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
         stateMap = new MapContent();
 		stateMap = createStateBoundaryMapLayer2();	
 		jmap = new JMapPane(stateMap);
-		jmap.setBorder(new EmptyBorder(50,50,50,50));
+		jmap.setBackground(Color.LIGHT_GRAY);
+		jmap.setBorder(new EmptyBorder(20,20,20,20));
+		jmap.setPreferredSize(new Dimension(600,400));
+		jmap.setMinimumSize(getMinimumSize());
 //		jmap.setBackground(Color.BLACK);
 //		PanTool myPanTool = new PanTool();
 //		myPanTool.onMouseDragged(null);
 //		jmap.setCursorTool(myPanTool);
-		addMapPanel.add(jmap);
+		addMapPanel.add(jmap,BorderLayout.CENTER);
 		return addMapPanel;
 	}
 	
@@ -450,8 +517,9 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 		//add legend panel on the right
 		addLegendPanel = new JPanel();
 		addLegendPanel.setLayout(new BoxLayout(addLegendPanel,BoxLayout.Y_AXIS));
+		addLegendPanel.setBackground(Color.LIGHT_GRAY);
 		addLegendPanel.setBorder(new EmptyBorder(5,5,5,5));
-		addLegendPanel.setPreferredSize(new Dimension(200,150));
+		addLegendPanel.setPreferredSize(new Dimension(150,150));  //new Dimension(200,150)
 		addLegendPanel.setAlignmentX(Component.RIGHT_ALIGNMENT);
 		legendLabel = new JLabel("Legend");
 		legendLabel.setFont(new Font("Dialog",Font.PLAIN,14));
@@ -470,21 +538,28 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 	protected JComponent createFooter() {
 		//add information display field at the bottom
 		sectorDisplayPanel = new JPanel();
-		sectorDisplayPanel.setBorder(new EmptyBorder(10,10,10,10));
+		sectorDisplayPanel.setBorder(new EmptyBorder(5,5,5,5));
+		sectorDisplayPanel.setBackground(Color.LIGHT_GRAY);
 		sectorDisplayPanel.setLayout(new BoxLayout(sectorDisplayPanel,BoxLayout.X_AXIS));
 		sectorDisplayPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
+		String footerPart1 = chartName + " for year " + yearListMenu.getSelectedItem().toString();
 		String mapSectorInfo = MapOptionsUtil.getSectorPlusInfo(jtable);
-		sectorText = new JTextField("Displayed in this map:" + mapSectorInfo);
+		footerText = new JTextField(footerPart1);
+		footerText.setFont(new Font("Arial",Font.BOLD,16));
+		footerText.setBackground(Color.LIGHT_GRAY);
+		footerText.setMaximumSize(footerText.getPreferredSize());
+		sectorDisplayPanel.add(Box.createHorizontalGlue());
+		sectorDisplayPanel.add(footerText);
+		sectorText = new JTextField(" " + mapSectorInfo);
 		if (mapSectorInfo.length()>0) {
 			sectorText.setVisible(true);
 		}else {
 			sectorText.setVisible(false);
 		}
 		sectorText.setFont(new Font("Arial",Font.BOLD,16));
-		sectorText.setBackground(Color.GRAY);
+		sectorText.setBackground(Color.LIGHT_GRAY);
 		sectorText.setMaximumSize(sectorText.getPreferredSize());
 		//sectorText.setHorizontalAlignment(JTextField.CENTER);
-		sectorDisplayPanel.add(Box.createHorizontalGlue());
 		sectorDisplayPanel.add(sectorText);
 		sectorDisplayPanel.add(Box.createHorizontalGlue());
 		return sectorDisplayPanel;
@@ -494,7 +569,6 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 		@Override
 		protected void paintComponent(Graphics g) {
 			super.paintComponent(g);
-			
 		}
 
 		@Override
@@ -504,21 +578,6 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 	}
 	public JMapPane getJmap() {
 		return jmap;
-	}
-	//YD edits,August-2024
-	public void RedrawStateMapLayout() {
-		//clear up the previous displayed panels and MapContent
-		frame.remove(sectorDisplayPanel);
-		frame.remove(addLegendPanel);
-		stateMap.layers().clear();
-		frame.remove(jmap);
-		frame.getContentPane().add(createMapContent(),BorderLayout.CENTER);
-		frame.getContentPane().add(createFooter(),BorderLayout.PAGE_END);
-		frame.getContentPane().add(addLegendPanel(),BorderLayout.EAST);
-		//frame.revalidate();
-		frame.setVisible(true);
-
-		
 	}
 	
 	public void RedrawStateMap() {
@@ -545,45 +604,89 @@ public class StateMapPanel extends JFrame implements ComponentListener{
 		  useMapColor = new MapColor(usePalette,minCustom,maxCustom);	
 		}
 		//clear up the previous displayed panels and MapContent
-		frame.remove(sectorDisplayPanel);
-		frame.remove(addLegendPanel);
+		GridBagLayout layout = (GridBagLayout)frame.getContentPane().getLayout();
+		GridBagConstraints oldConstraints = layout.getConstraints(mainRightPanel);
 		stateMap.layers().clear();
-		frame.remove(jmap);
-		frame.getContentPane().add(createMapContent(),BorderLayout.CENTER);
-		frame.getContentPane().add(createFooter(),BorderLayout.PAGE_END);
-		frame.getContentPane().add(addLegendPanel(),BorderLayout.EAST);
+		frame.getContentPane().remove(jmap);
+		frame.getContentPane().remove(mainRightPanel);
+		//frame.getContentPane().remove(sectorDisplayPanel);
+		//frame.getContentPane().remove(addLegendPanel);
+		
+		frame.getContentPane().add(addMainRightPanel(),oldConstraints);
+		//frame.getContentPane().add(createMapContent(),BorderLayout.CENTER);
+		//frame.getContentPane().add(createFooter(),BorderLayout.PAGE_END);
+		//frame.getContentPane().add(addLegendPanel(),BorderLayout.EAST);
 		frame.revalidate();
 		frame.repaint();
 
 	}
 	
-	private void saveMap() {
+	public void downloadMapWithFileChooser() {
 		
-		BufferedImage image = new BufferedImage(frame.getWidth(), frame.getHeight(), BufferedImage.TYPE_INT_ARGB);
-		Graphics2D g2d = image.createGraphics();
-		frame.remove(toolBar);
-		frame.printAll(g2d);
-		g2d.dispose();
-		frame.getContentPane().add(createToolBar(),BorderLayout.WEST);
-		//frame.revalidate();
-		//frame.repaint();
-		
-		JFileChooser fileChooser = new JFileChooser();
-		fileChooser.setDialogTitle("Specify a file name to save the map");
-		fileChooser.setFileFilter(new FileNameExtensionFilter("*.png","png"));
-		int userSelection = fileChooser.showSaveDialog(null);
-		if (userSelection == JFileChooser.APPROVE_OPTION){
-			try {
-				ImageIO.write(image, "png", fileChooser.getSelectedFile());
-				String myString = "map is saved to " + fileChooser.getSelectedFile().getAbsolutePath();
-				JOptionPane.showMessageDialog(null, myString, "map is saved", JOptionPane.INFORMATION_MESSAGE);
-				
-			}catch (IOException e) {
-				System.out.println("Could not save map: "+e.toString());
-				JOptionPane.showMessageDialog(null, "Unable to save map, please see console for error", "Error Saving Map", JOptionPane.ERROR_MESSAGE);
-			} 
+		final JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setDialogTitle("Save Map as Image");
+		// Add file filters for different image formats
+        FileNameExtensionFilter pngFilter = new FileNameExtensionFilter("PNG Images (*.png)", "png");
+        FileNameExtensionFilter jpgFilter = new FileNameExtensionFilter("JPEG Images (*.jpg, *.jpeg)", "jpg", "jpeg");
+        FileNameExtensionFilter bmpFilter = new FileNameExtensionFilter("BMP Images (*.bmp)", "bmp");
+        fileChooser.addChoosableFileFilter(pngFilter);
+        fileChooser.addChoosableFileFilter(jpgFilter);
+        fileChooser.addChoosableFileFilter(bmpFilter);
+        //Set PNG as default
+		fileChooser.setFileFilter(pngFilter);
+		//Show save dialog
+		int result = fileChooser.showSaveDialog(frame);
+		//int result = 1;
+		if (result == JFileChooser.APPROVE_OPTION){
+			File fileToSave = fileChooser.getSelectedFile();
+            //Get the selected file extension
+			String format = GraphDisplayUtil.getFileExtension(fileToSave);
+            if (format.isEmpty()) {
+                // Add extension based on selected filter
+                FileNameExtensionFilter selectedFilter = (FileNameExtensionFilter) fileChooser.getFileFilter();
+                format = selectedFilter.getExtensions()[0];
+                fileToSave = new File(fileToSave.getAbsolutePath() + "." + format);
+            }
+            //Capture and save the frame
+            boolean success = captureAndSaveFrame(fileToSave,format);
+            if (success) {
+                JOptionPane.showMessageDialog(this, 
+                    "Map saved successfully to:\n" + fileToSave.getAbsolutePath(),
+                    "Success", 
+                    JOptionPane.INFORMATION_MESSAGE);
+            } else {
+                JOptionPane.showMessageDialog(this, 
+                    "Failed to save map to file.",
+                    "Error", 
+                    JOptionPane.ERROR_MESSAGE);
+            }
 		}
 	}
+	
+	//YD added, Nov-2025
+	public boolean captureAndSaveFrame(File file, String format) {
+		    try {
+		         // Create a BufferedImage of the frame's content
+		         BufferedImage image = new BufferedImage(
+		                mainRightPanel.getWidth(),//frame.getContentPane().getWidth(),
+		                mainRightPanel.getHeight(),//frame.getContentPane().getHeight(),
+		                BufferedImage.TYPE_INT_RGB
+		          );
+		            
+		         // Paint the frame's content onto the image
+		         Graphics2D graphics = image.createGraphics();
+		          mainRightPanel.paint(graphics);//getContentPane().paint(graphics);
+		          graphics.dispose();
+		            
+		         // Save the image to file
+		         return ImageIO.write(image, format, file);
+		            
+		      } catch (IOException e) {
+		            e.printStackTrace();
+		            return false;
+		     }
+		}
+			
 	
 	private void limitNumClassesAndChangeChoices() {
 		//get the updated user's choices
